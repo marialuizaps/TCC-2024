@@ -1,0 +1,42 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: grey;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#principal{
+padding-right: 200px;
+}
+
+#servicos{
+    padding-left: 200px
+}
+nav a {
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color:rgb(0, 255, 200)
+}
+
+nav a:hover {
+    color:#ff1180;
+}
+main {
+    font-size: 25px;
+    margin-top:150px ;
+    color:rgb(45, 94, 158)
+    
+}
+
+h2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
